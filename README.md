@@ -20,13 +20,15 @@ Microservices are a critical part of a number of significant advancements that a
 
 Do you want build the Enterprise Software Systems?
 The following is a list of common characteristics that need to be available in a good enterprise software system:  
-• Scalability  
-• Availability  
-• Latency   
-• Robustness  
-• Security  
-• Modularity  
-• Reusability  
-• Replaceability  
-• Observability  
-• Adaptability  
+    • Scalability  
+    • Availability  
+    • Latency   
+    • Robustness  
+    • Security  
+    • Modularity  
+    • Reusability  
+    • Replaceability  
+    • Observability  
+    • Adaptability  
+
+**Scalability**: In the past, the growth of an enterprise took a considerable amount of time, and the enterprise teams had enough lead time to plan on scaling the applications. But in today’s world, enterprises can launch their products and services to larger audiences through the Internet, and the growth of the customer base can be instantaneous. Sometimes, you would receive ten times more traffic than what you initially estimated, and your enterprise system should be capable of scaling to these demands instantly. Utilize technologies provided by infrastructure providers to automatically scale the components based on certain metrics such as CPU usage, latency, or number of users. There are two types of scalability: _**Horizontal scalability**_ and_ **Vertical scalability**_
