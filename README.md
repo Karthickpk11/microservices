@@ -19,7 +19,7 @@ Microservices are a critical part of a number of significant advancements that a
 **Refactoring a Monolith into Microservices** – In a perfect world, we would always get the time and money to convert core software into the latest and greatest technologies, tools, and approaches, with no real deadlines. But you may well find yourself converting a monolith into microservices, one… small… piece… at… a… time.
 
 Do you want build the Enterprise Software Systems?
-The following is a list of common characteristics that need to be available in a good enterprise software system:
+The following is a list of common characteristics that need to be available in a good enterprise software system:  
 • Scalability  
 • Availability  
 • Latency   
