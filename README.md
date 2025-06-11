@@ -32,3 +32,6 @@ The following is a list of common characteristics that need to be available in a
     • Adaptability  
 
 **Scalability**: In the past, the growth of an enterprise took a considerable amount of time, and the enterprise teams had enough lead time to plan on scaling the applications. But in today’s world, enterprises can launch their products and services to larger audiences through the Internet, and the growth of the customer base can be instantaneous. Sometimes, you would receive ten times more traffic than what you initially estimated, and your enterprise system should be capable of scaling to these demands instantly. Utilize technologies provided by infrastructure providers to automatically scale the components based on certain metrics such as CPU usage, latency, or number of users. There are two types of scalability: _**Horizontal scalability**_ and _**Vertical scalability**_
+
+Horizontal scalability: Adding more instances of a microservice to distribute the workload across multiple servers. This is particularly effective for handling increased traffic or high demand.    
+Vertical scalability: Increasing the resources (e.g., CPU, memory) of a single microservice instance. 
