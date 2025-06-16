@@ -54,6 +54,10 @@ A microservice architecture has the following characteristics:
  The underlying technical implementation of the service is irrelevant because the applications always communicate with a technology-neutral protocol (JSON is the most common). This means an application built using a microservice application could be built with multiple languages and technologies.    
  Microservices—by their small, independent, and distributed nature—allow organizations to have small development teams with well-defined areas of responsibility. These teams might work toward a single goal such as delivering an application, but each team is responsible only for the services on which they’re working.    
 
+**Microservices are more than the business logic. You need to think about the environment where the services are going to run and how the services will scale and be resilient**.
+![image](https://github.com/user-attachments/assets/6fb6f364-d01e-46b2-8db9-9876438bbd0c)
+
+
 **Using an API Gateway** – An API Gateway is the single point of entry for entire microservices-based application, presenting the API for each microservice.
 
 **Inter-process Communication in a Microservices Architecture** - Once you break a monolithic application into separate pieces – microservices – the pieces need to speak to each other. And it turns out that you have many options for inter-process communication, including representational state transfer (REST).
