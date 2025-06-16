@@ -47,6 +47,13 @@ Moving to a microservices-based approach makes app development faster and easier
 
 Microservices are a critical part of a number of significant advancements that are changing the nature of how we work. Agile software development techniques, moving applications to the cloud, DevOps culture, continuous integration and continuous deployment (CI/CD), and the use of containers are all being used alongside microservices to revolutionize application development and delivery.
 
+A microservice architecture has the following characteristics:    
+ Application logic is broken down into small-grained components with welldefined boundaries of responsibility that coordinate to deliver a solution.    
+ Each component has a small domain of responsibility and is deployed completely independently of one another. Microservices should have responsibility for a single part of a business domain. Also, a microservice should be reusable across multiple applications.    
+ Microservices communicate based on a few basic principles (notice I said principles, not standards) and employ lightweight communication protocols such as HTTP and JSON (JavaScript Object Notation) for exchanging data between the service consumer and service provider.    
+ The underlying technical implementation of the service is irrelevant because the applications always communicate with a technology-neutral protocol (JSON is the most common). This means an application built using a microservice application could be built with multiple languages and technologies.    
+ Microservices—by their small, independent, and distributed nature—allow organizations to have small development teams with well-defined areas of responsibility. These teams might work toward a single goal such as delivering an application, but each team is responsible only for the services on which they’re working.    
+
 **Using an API Gateway** – An API Gateway is the single point of entry for entire microservices-based application, presenting the API for each microservice.
 
 **Inter-process Communication in a Microservices Architecture** - Once you break a monolithic application into separate pieces – microservices – the pieces need to speak to each other. And it turns out that you have many options for inter-process communication, including representational state transfer (REST).
